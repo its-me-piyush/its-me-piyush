@@ -1,11 +1,16 @@
 
-### Hi <img src="https://tenor.com/view/wave-hello-emote-flat-waving-gif-22026836" width="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
-[![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr)
+### Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
+[![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr) <img align="right" src="https://i.giphy.com/media/LmNwrBhejkK9EFP504/200w.webp" alt="Programmation" width="200" />
 
 
-- 👯 I’m looking to collaborate on projects.
+- 🌱 I’m currently learning everything 🤣
 - 🎁 Debugging myself from Bugs
+- 💡 I love innovation and new technologies
+- 🤝 I’m looking to collaborate with other creators
+- 🚀 One day I will see humans on Mars!
 - ✨ Connect With me On [LinkedIn](https://www.linkedin.com/in/piyush-nagpal) , [Instagram](https://www.instagram.com/piyush_nagpal_z/) & [Telegram](https://t.me/PiyushNagpal11)
+
+<br>
 
 ##  💹 Contribution Graph
 
