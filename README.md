@@ -1,6 +1,8 @@
 
 ### Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
-[![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr) <img align="right" src="https://i.giphy.com/media/LmNwrBhejkK9EFP504/200w.webp" alt="Programmation" width="200" />
+[![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr) 
+
+<img align="right" src="https://i.giphy.com/media/LmNwrBhejkK9EFP504/200w.webp" alt="Programmation" width="200" />
 
 
 - 🌱 I’m currently learning everything 🤣
