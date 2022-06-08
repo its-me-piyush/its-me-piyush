@@ -1,5 +1,5 @@
 
-### Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
+### Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="25px" height="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
 [![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr) 
 
 <img class="fit-picture" align="right"
