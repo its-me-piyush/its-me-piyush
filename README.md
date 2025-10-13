@@ -59,6 +59,10 @@
 
 ---
 
+[![An image of @richdotcom's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/richdotcom)](https://holopin.io/@richdotcom)
+
+---
+
 ## 🏅 Achievements  
 
 - 🎖️ **Patron Award for Overall Academic Achievement**  
