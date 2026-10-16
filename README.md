@@ -1,94 +1,136 @@
+<p align="center">
+  <img src="./assets/off-screen.gif" width="100%" alt="Piyush Nagpal. Off screen: code goes in, the world moves. An animated signal travels between a satellite, a rover, and fifteen colored pixels." />
+</p>
 
-### Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="25px" height="25px"> I'm [Piyush Nagpal](https://www.github.com/zsiecr)
-[![Profile views](https://komarev.com/ghpvc/?username=zsiecr&label=Profile%20views)](https://github.com/zsiecr) 
+<p align="center">
+  <a href="#open-a-channel"><b>EXPLORE THE CODE</b></a> &nbsp; / &nbsp;
+  <a href="#in-progress">BUILDS</a> &nbsp; / &nbsp;
+  <a href="#experience">EXPERIENCE</a> &nbsp; / &nbsp;
+  <a href="#research">RESEARCH</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/piyush-nagpal/">LINKEDIN</a> &nbsp; / &nbsp;
+  <a href="mailto:piyushnagpal777@gmail.com">SAY HELLO</a>
+</p>
 
-<img class="fit-picture" align="right"
-     width="200"  src="https://i.giphy.com/media/LmNwrBhejkK9EFP504/200w.webp" alt="Programmation" />
+### Hi, I’m Piyush. I like giving code something physical to do.
 
-<br>
+Read a sensor. Move a rover. Send a packet. Turn fifteen LEDs into a game.
 
-- 🌱 I’m currently learning everything 🤣
-- 🎓 Graduate Student in **Embedded Systems** at the University of Colorado Boulder
-- 🎁 Debugging myself from Bugs
-- 💡 I love innovation and new technologies
-- 🤖 Passionate about **Robotics, AI, Embedded Systems, and Intelligent Hardware Design**
-- 🤝 I’m looking to collaborate with other creators
-- 🚀 One day I will see humans on Mars!
-- ✨ Connect With me On [LinkedIn](https://www.linkedin.com/in/piyush-nagpal) , [Instagram](https://www.instagram.com/piyush_nagpal_z/) & [Telegram](https://t.me/PiyushNagpal11)
+I build across **firmware, electronics, and the apps that connect to them**. I’m pursuing a **Professional M.S. in Embedded Systems Design at CU Boulder**, after two years in product development. My favorite problems tend to live where two systems meet.
 
-<br> 
+## 01 / The public signal
+
+<a href="https://github.com/its-me-piyush?tab=repositories"><img src="./assets/public-signal.svg" width="100%" alt="Public GitHub snapshot, October 16, 2026: 36 public repositories, 29 non-forks, 7 forks. Primary language labels among non-forks: Dart 20, Jupyter Notebook 4, Python 3, C++ 1, unclassified 1." /></a>
+
+The code here includes **Flutter applications, connected-device experiments, Python projects, and earlier machine-learning work**. My current direction is embedded systems, connected hardware, and space systems.
+
+**[Browse repositories ↗](https://github.com/its-me-piyush?tab=repositories)** · **[Public activity ↗](https://github.com/its-me-piyush?tab=overview)**
+
+<sub>Snapshot: October 16, 2026. Language labels count non-fork repositories, including this profile. They describe this public collection, not proficiency, code volume, or private work.</sub>
+
+<a id="open-a-channel"></a>
+
+## 02 / Open a channel
+
+| If you’re curious about… | Start here | Follow the code |
+| :--- | :--- | :--- |
+| **A phone talking to a device** | [BLE Chat + Time-Series Data](https://github.com/its-me-piyush/BLE-Chat-app-with-time-series-data) | [Flutter / Dart application](https://github.com/its-me-piyush/BLE-Chat-app-with-time-series-data/tree/HEAD/lib) |
+| **An app and its embedded counterpart** | [Hostel IoT App](https://github.com/its-me-piyush/hostel_app_i2it) | [App](https://github.com/its-me-piyush/hostel_app_i2it/tree/HEAD/lib) + [ESP8266 firmware](https://github.com/its-me-piyush/hostel_app_i2it/tree/HEAD/Arduino/Hostel_ESP8266) |
+| **A camera feeding a decision** | [Driver Drowsiness Detection](https://github.com/its-me-piyush/Driver-Drowsiness-Detection-System) | [Detection script](https://github.com/its-me-piyush/Driver-Drowsiness-Detection-System/blob/HEAD/drowsiness_detection.py) + [model](https://github.com/its-me-piyush/Driver-Drowsiness-Detection-System/blob/HEAD/model.py) |
+
+<details>
+<summary><b>Take the scenic route: notebooks, small experiments, and earlier apps</b></summary>
+
+- [Alzheimer’s Classification](https://github.com/its-me-piyush/Alzheimer-s-Classification) and [ResNet Classification](https://github.com/its-me-piyush/Classification-with-RESNET): earlier notebook-based machine-learning projects.
+- [Keychain](https://github.com/its-me-piyush/Keychain): Python and Arduino sketch files.
+- [Python Games](https://github.com/its-me-piyush/Games-with-python): five console games.
+
+</details>
+
+<a id="in-progress"></a>
+
+## 03 / In progress
+
+<img src="./assets/build-neopixel.svg" width="100%" alt="NeoPixel Defence: Flipper Zero, UART, ESP-NOW, ESP32, and fifteen LEDs. Controller app built; V2 gameplay design." />
+
+<img src="./assets/build-astronav.svg" width="100%" alt="AstroNav: Flutter and Android sky navigator using location, orientation, and camera guidance. App running; alignment and night testing ongoing." />
+
+<img src="./assets/build-swarm.svg" width="100%" alt="SWARM-EX command and data handling: recently joined as a CU Boulder volunteer. Starting Bluefin radio integration around PocketBeagle." />
+
+<details>
+<summary><b>Project details / text version</b></summary>
+
+- **NeoPixel Defence:** a custom Flipper Zero controller app sends commands over UART to an ESP32-S2 and then over ESP-NOW to the ESP32 driving fifteen LEDs. The controller build succeeded. The V2 gameplay design adds waves, rainbow enemies, and three lives.
+- **AstroNav:** app-first Android / Flutter sky navigation using location, orientation, and the phone camera. Alignment and night testing are ongoing.
+- **SWARM-EX / CDH:** recently joined as a volunteer. Starting Bluefin radio integration around the PocketBeagle-based system.
+
+</details>
+
+<sub>Current-work snapshot: October 2026. These projects describe my wider engineering work; source links above point to verified public repositories.</sub>
+
+<details>
+<summary><b>More hardware: electronic loads, custom boards, and a CAN-connected rover</b></summary>
+
+| Build | Engineering focus |
+| :--- | :--- |
+| **Instrument Droid** | Four-layer electronic load for VRM characterization. DAC-controlled MOSFET load, ADC measurement, calibration, and board bring-up. |
+| **Golden Arduino** | Custom ATmega328 board. USB-UART, power regulation, protection, layout, and bootloader bring-up. |
+| **AESD Rover** | Yocto Linux and ESP32 connected over CAN, with drive commands, telemetry, heartbeat, and emergency-stop handling. |
+| **RV Awning Control** | A mobile / BLE / Linux / MQTT / CAN control prototype spanning app, gateway, motor commands, and telemetry. |
+| **Deep Sleep** | Team wearable mech-duel project. BLE, motion sensing, feedback, low-power design, and energy modeling. In development. |
+
+</details>
+
+<a id="experience"></a>
+
+## 04 / Where I’ve built
+
+<img src="./assets/experience.svg" width="100%" alt="Experience: CU Boulder Professional M.S. 2025–2027 and Digital Logic teaching support; Qualcomm Infrastructure Test Team engineering intern May–August 2026; Cognologix Product Developer July 2023–July 2025; Fabrus Software Developer Intern August 2021–July 2024." />
+
+<details>
+<summary><b>Experience details / text version</b></summary>
+
+- **CU Boulder:** Professional M.S. in Embedded Systems Design, 2025–2027. Digital Logic teaching support includes HDL, FPGA simulation, and board bring-up. Degree dates are separate from the teaching appointment.
+- **Qualcomm:** Infrastructure Test Team, engineering intern, May–August 2026. Linux release validation for 5G test environments, Python test-script migration, and integration debugging.
+- **Cognologix:** Product Developer, July 2023–July 2025. Firmware, connected devices, Flutter, backend services, and hardware interfaces.
+- **Fabrus:** Software Developer Intern, August 2021–July 2024. Java / Spring Boot, SQL, Flutter, and gRPC / Protocol Buffers integration.
+
+</details>
+
+<a id="research"></a>
+
+## 05 / Questions that became papers
+
+<a href="https://doi.org/10.1109/SMARTGENCON56628.2022.10083966"><img src="./assets/paper-resnet.svg" width="100%" alt="A Comparative Analysis of ResNet Architectures. IEEE SMART GENCON 2022. Comparing ResNet 34, 50, 101, and 152. Open paper via DOI." /></a>
+
+<a href="https://www.researchgate.net/publication/373398790"><img src="./assets/paper-alzheimer.svg" width="100%" alt="Alzheimer’s Disease Stages Classification Using MRI and Deep Learning. IJEEDC, volume 11, issue 5, May 2023. Comparing CNN, InceptionV3, and EfficientNet-B0. Open author copy." /></a>
+
+<a href="https://www.ijteonline.in/assets/uploads/issue_pdf/1760350414.pdf#page=62"><img src="./assets/paper-gis.svg" width="100%" alt="Logistic Route Optimisation based on Geographic Information System (GIS). The Indian Journal of Technical Education, volume 46, special issue, December 2023, pages 52–58. Open journal issue PDF, page 62." /></a>
+
+**[ResNet / DOI ↗](https://doi.org/10.1109/SMARTGENCON56628.2022.10083966)** · **[MRI classification / author copy ↗](https://www.researchgate.net/publication/373398790)** · **[GIS routing / journal issue ↗](https://www.ijteonline.in/assets/uploads/issue_pdf/1760350414.pdf#page=62)**
+
+<details>
+<summary><b>Publication titles and references / text version</b></summary>
+
+1. **A Comparative Analysis of ResNet Architectures.** Piyush Nagpal, Shivani Atul Bhinge, and Ajitkumar Shitole. 2022 International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON). DOI: `10.1109/SMARTGENCON56628.2022.10083966`.
+2. **Alzheimer’s Disease Stages Classification Using MRI and Deep Learning.** Piyush Nagpal and Jay Raviraj Deore. International Journal of Electrical, Electronics and Data Communication, volume 11, issue 5, May 2023, pages 42–46.
+3. **Logistic Route Optimisation based on Geographic Information System (GIS).** Piyush Nagpal, Jay Raviraj Deore, Shubham Chauhan, Risil Chhatrala, Varsha Degaonkar, and Anjali Jagtap. The Indian Journal of Technical Education, volume 46, special issue, December 2023, pages 52–58.
+
+</details>
+
+## 06 / My usual tools
+
+**Write** &nbsp; C · C++ · Python · Bash · Dart / Flutter  
+**Run** &nbsp; STM32 · ESP32 · Raspberry Pi · ATmega328 · embedded Linux  
+**Connect** &nbsp; CAN · BLE · MQTT · UART · SPI · I²C · ESP-NOW  
+**Measure** &nbsp; Altium Designer · oscilloscopes · logic analyzers · ADC / DAC
 
 ---
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
 
----
+### Next transmission?
 
-## 🛠️ Tech Toolbox  
+I’m interested in **embedded firmware, flight software, communications, and systems integration**. If your project has a tricky interface or a reason to reach for a logic analyzer, I’d like to hear about it.
 
-- **Languages:** C, C++, Python, Java, Dart, Verilog  
-- **Frameworks & Platforms:** Spring Boot, Flutter, Firebase, ESP32/ESP8266, STM32, Raspberry Pi  
-- **Special Interests:** Robotics, AI-driven systems, FPGA development, Hardware-Software co-design  
-- **Other Tools:** Git, CAN Bus, BLE, Real-Time Systems  
+**[Email me ↗](mailto:piyushnagpal777@gmail.com)** · **[Find me on LinkedIn ↗](https://www.linkedin.com/in/piyush-nagpal/)**
 
----
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=its-me-piyush&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## 📚 Publications  
-
-- *Alzheimer's Disease Stages Classification Using MRI and Deep Learning* – IJEEEDC (2023)  
-- *Logistic Route Optimizations Based on Geographic Information System* – Indian Journal of Technical Education  
-- *A Comparative Analysis of ResNet Architectures* – IEEE Smart Gen Con (2023)  
-
----
-
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=its-me-piyush&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=its-me-piyush&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=its-me-piyush&show_icons=true" />
-</picture>
-
----
-
-[![An image of @richdotcom's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/richdotcom)](https://holopin.io/@richdotcom)
-
----
-
-## 🏅 Achievements  
-
-- 🎖️ **Patron Award for Overall Academic Achievement**  
-- 🥈 Silver Medalist – Hockey Regionals (2012)  
-- 🥇 Winner – Under-14 Kabaddi (2014)  
-- 🌍 Scouts & Guides: Completed **Pravesh to Tritiya Sopan** (Leadership Development)  
-
----
-
-## 🌟 What I'm Up To  
-
-- Building intelligent embedded systems with **STM32 & Raspberry Pi**  
-- Exploring **AI-driven robotics** and **control systems**  
-- Expanding skills in **FPGA development** and **system optimization**  
-- Preparing for exciting **research opportunities (Fall 2025 intake)**  
-
----
-
-## 📫 Let’s Connect!  
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/piyush-nagpal/)  
-- 🐙 [GitHub](https://github.com/its-me-piyush)  
-- 📧 [Email](mailto:piyushnagpal777@gmail.com)  
-
----
-
-⭐ *Always curious. Always building. Always learning.*  
-
----
+<p align="center"><img src="./assets/crowned-monkey.png" width="60" alt="Piyush’s crowned-monkey signature" /></p>
+<p align="center"><sub>Based in Boulder. Powered by curiosity. Usually holding chai.</sub></p>
